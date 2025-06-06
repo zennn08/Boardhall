@@ -2,7 +2,17 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Boardhall" parent="Theme.Material3.Light.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item>
     </style>
 
     <style name="Theme.Boardhall" parent="Base.Theme.Boardhall" />

@@ -32,11 +32,27 @@ android {
 }
 
 dependencies {
-
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+
+    // Volley untuk HTTP request
+    implementation(libs.volley)
+
+    // Glide untuk load gambar
+    implementation(libs.glide)
+    annotationProcessor(libs.compiler)
+
+    // RecyclerView
+    implementation(libs.recyclerview)
+
+    // CardView
+    implementation(libs.cardview)
+
+    // DrawerLayout
+    implementation(libs.drawerlayout)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
